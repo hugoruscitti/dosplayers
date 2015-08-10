@@ -1,0 +1,45 @@
+.project_image { 
+	position: relative; 
+	float: left; 
+	background: rgb(99, 99, 99);
+	margin-bottom:20px;
+	background-image:url("../img/leer_mas.png");
+	background-repeat:no-repeat;
+	background-position:center 10px;
+}	
+
+body.page {
+}
+
+.cabecera {
+    border: 1px solid red;
+}
+
+
+.navbar-inverse .navbar-inner {
+    background-repeat: repeat-x;
+    border-color: #303032;
+    background-color: #FF3032;
+}
+
+.navbar .brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.mensaje {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+div.oneBox strong {
+    margin-left: 1em;
+}
+
+div.blueBox strong {
+    margin-left: 1em;
+}
+
+.project_image img:hover {
+    opacity: 0.3;
+}
