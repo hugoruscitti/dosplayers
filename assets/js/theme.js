@@ -4,6 +4,5 @@
 !function ($) {
 
     $('#myCarousel').carousel()
-    
-}(window.jQuery)
 
+}(window.jQuery)

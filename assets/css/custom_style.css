@@ -1,13 +1,3 @@
-.project_image { 
-	position: relative; 
-	float: left; 
-	background: rgb(99, 99, 99);
-	margin-bottom:20px;
-	background-image:url("../img/leer_mas.png");
-	background-repeat:no-repeat;
-	background-position:center 10px;
-}	
-
 body.page {
 }
 
@@ -38,8 +28,4 @@ div.oneBox strong {
 
 div.blueBox strong {
     margin-left: 1em;
-}
-
-.project_image img:hover {
-    opacity: 0.3;
 }
