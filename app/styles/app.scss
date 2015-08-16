@@ -1,0 +1,53 @@
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+.w100 {
+  width: 100%;
+}
+
+.welcome-container {
+  padding: 50px;
+}
+
+.border {
+  border: 1px solid #C5C5C5;
+}
+
+[data-ember-action] {
+  cursor: pointer;
+}
+
+
+.footer{
+  background-color: #303133;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer-text{
+  color: #575757;
+  font-weight: bold;
+}
+
+.footer-primary{
+  color: #f2f2f2;
+  margin-bottom: 0px;
+  line-height: 16px;
+}
+
+.social_icons {
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.social_icons a {
+	filter: alpha(opacity=30);
+	opacity: .3;
+	}
+
+.social_icons a:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+	}
