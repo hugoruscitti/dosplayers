@@ -16,6 +16,12 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      
+       fingerprint: {
+         enabled: false,
+         exclude: ['work'],
+         prepend: 'https://subdomain.cloudfront.net/'
+       },
     },
     sassOptions: {
       includePaths: ['bower_components/materialize/sass']
