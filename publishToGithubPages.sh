@@ -11,8 +11,8 @@ cd subrepo_gh_pages/
 
 echo " ${V}Limpiando el directorio gitpages.${N}"
 # En subrepo_gh_pages
-#git branch -D gh-pages
-#git push origin --delete gh-pages
+git branch -D gh-pages
+git push origin --delete gh-pages
 git checkout -b gh-pages
 git checkout -f
 git pull origin gh-pages
