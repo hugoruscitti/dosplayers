@@ -5,7 +5,7 @@ B=[01;34m
 
 comandos:
 	@echo ""
-	@echo "${B}Comandos disponibles para ${G}huayra-ritmos${N}"
+	@echo "${B}Comandos disponibles para ${G}twoplayers-website${N}"
 	@echo ""
 	@echo "  ${Y}Para distribuir${N}"
 	@echo ""
