@@ -39,3 +39,24 @@ h2 {
   text-shadow: 0 0 8px rgb(0, 0, 0);
   font-size: 3em;
 }
+
+.link-store {
+  margin-right: 10px;
+}
+
+.links-to-store {
+}
+
+
+.game-row {
+  margin-bottom: 1em;
+  padding-bottom: 3em;
+}
+
+span.unreleased {
+  background-color: rgba(153, 153, 153, 0.6);
+  padding: 9px;
+  border: 0px solid #FF0000;
+  border-radius: 10px;
+  color: white;
+}
