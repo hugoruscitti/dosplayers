@@ -1,0 +1,41 @@
+.intro-header {
+  background: url(../blur-background_1.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 0;
+  padding-top: 22%;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 0;
+}
+
+.main-logo {
+  max-width: 100%;
+}
+
+.thumb {
+  box-shadow: 0 0 11px gray;
+  border: 1px solid white;
+}
+
+.banner {
+    background: url(../foto-fondo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.presskit {
+  background-color: #eee;
+  padding-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 2em;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 0 0 8px rgb(0, 0, 0);
+  font-size: 3em;
+}
