@@ -1,0 +1,23 @@
+<hr class="section-heading-spacer">
+<div class="clearfix"></div>
+<h2 class="section-heading">{{title}}</h2>
+
+<p class="lead">
+  {{description}}
+</p>
+
+<p class='lead links-to-store'>
+  {{#if storeLink}}
+    <a class="link-store" href={{storeLink}}><img src='store/link-apple.png'></a>
+  {{/if}}
+
+  {{#if playLink}}
+    <a class="link-store" href={{playLink}}><img src='store/link-play.png'></a>
+  {{/if}}
+
+  {{#if unreleased}}
+    <span class="unreleased">In development process</span>
+  {{/if}}
+</p>
+
+{{yield}}

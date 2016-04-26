@@ -1,68 +1,21 @@
-{{#md-navbar name='two players' class='black'}}
-    <li><a href="#games">Games</a></li>
-    <li><a href="#presskit">Press Kit</a></li>
-{{/md-navbar}}
-
-<div class="row">
-    <img style='width: 100%' src='fondo.jpg'>
-</div>
-
-<div class="container">
-
-  <div class="welcome-container" id="games">
-    <h3 class='center'>Hi there! we are twoPlayers</h3>
-    <h5 class='center'>these are some of our creations</h5>
-  </div>
-
-
-  <div class="row">
-
-    {{site-game title="Dracula's Nightmare" released=true youtubeID="mqCYd2yqp9w" image="draculasNightmare.jpg" description="You have to survive the longest time without getting hit pumpkins."}}
-    {{site-game title="Dragon Punch Z" released=false gameImage=true image="dragonPunch.jpg" description="An adictive video game with Yamcha."}}
-    {{site-game title="Chicken Or Nuggets" released=false gameImage=true image="chicken.jpg" description="Run Chicken, run !!"}}
-
-  </div>
-
-  <div class="row">
-    {{site-game title="Shaolin's Blind Fury" released=false gameImage=true image="shaolin.jpg" description="A clasic Beat 'em up."}}
-  </div>
-
-
-  <div class="row" id="presskit">
-    <div class="col s12">
-      <h3 class='center'>Press Kit</h3>
+<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand topnav" href="#">twoplayers</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              {{t-links}}
+            </ul>
+        </div>
     </div>
-  </div>
-
-  <div class="row" id="presskit">
-    <div class="col s5">
-      <img class="w100" src='presskit-preview.png'>
-    </div>
-
-    <div class="col s7">
-      <p>We have a packaged set of promotional materials for propotional use here:</p>
-
-      <a href="https://www.dropbox.com/sh/gi2kiapgdly1t4o/AACEWQ6YSC26GqSchd3xe7-Ia?dl=0" class="waves-effect waves-light red btn">Preview PressKit online</a>
-      <a href="https://www.dropbox.com/sh/gi2kiapgdly1t4o/AACEWQ6YSC26GqSchd3xe7-Ia?dl=1" class="waves-effect waves-light btn">Download PressKit</a>
-    </div>
-
-
-  </div>
+</nav>
 
 
 {{outlet}}
-
-</div>
-
-{{md-modal-container}}
-
-
-<div class='footer'>
-  <p class='footer-text'>We are in Argentina</p>
-  <p class='footer-primary'>¡ Lets talk !</p>
-
-  <div class="social_icons">
-      <a href="https://www.facebook.com/pages/Two-players/455585354622789" target="_blank"><img src="social/facebook.png" width="30" height="30" alt="Facebook"></a>
-			<a href="https://twitter.com/hugoruscitti" target="_blank"><img src="social/twitter.png" width="30" height="30" alt="Twitter"></a>
-	</div>
-</div>

@@ -1,25 +1,23 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('site-game', 'Integration | Component | site game', {
+moduleForComponent('t-game-content', 'Integration | Component | t game content', {
   integration: true
 });
 
 test('it renders', function(assert) {
-  assert.expect(2);
-
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
-  this.render(hbs`{{site-game}}`);
+  this.render(hbs`{{t-game-content}}`);
 
   assert.equal(this.$().text().trim(), '');
 
   // Template block usage:
   this.render(hbs`
-    {{#site-game}}
+    {{#t-game-content}}
       template block text
-    {{/site-game}}
+    {{/t-game-content}}
   `);
 
   assert.equal(this.$().text().trim(), 'template block text');

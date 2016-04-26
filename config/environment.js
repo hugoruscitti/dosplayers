@@ -2,10 +2,10 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'twoplayers-website',
+    modulePrefix: 'twoplayers',
     environment: environment,
     baseURL: '/',
-    locationType: 'hash',
+    locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -16,15 +16,6 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-      
-       fingerprint: {
-         enabled: false,
-         exclude: ['work'],
-         prepend: 'https://subdomain.cloudfront.net/'
-       },
-    },
-    sassOptions: {
-      includePaths: ['bower_components/materialize/sass']
     }
   };
 
@@ -49,8 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/twoplayers/';
-    ENV.locationType = 'hash';
+
   }
 
   return ENV;
