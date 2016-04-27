@@ -60,3 +60,10 @@ span.unreleased {
   border-radius: 10px;
   color: white;
 }
+
+.ember-modal-dialog {
+  left: 6em;
+  top: 6em;
+  right: 6em;
+  bottom: 6em;
+}

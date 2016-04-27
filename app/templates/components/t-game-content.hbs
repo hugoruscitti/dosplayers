@@ -18,6 +18,24 @@
   {{#if unreleased}}
     <span class="unreleased">In development process</span>
   {{/if}}
+
 </p>
+
+<p class="lead">
+  {{#if youtubeLink}}
+    <button {{action "showModal"}} class="btn btn-default"><img src="youtube.png"> &nbsp; Play video preview</button>
+  {{/if}}
+</p>
+
+
+{{#if isShowingModal}}
+  {{#modal-dialog close="toggleModal"
+                  targetAttachment="center"
+                  translucentOverlay=true}}
+    <div class="videoWrapper">
+      {{ember-youtube ytid=youtubeLink}}
+    </div>
+  {{/modal-dialog}}
+{{/if}}
 
 {{yield}}
